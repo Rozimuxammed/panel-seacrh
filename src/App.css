@@ -1,0 +1,76 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #31363F;
+}
+
+.app .container {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app .container h3 {
+  font-family: sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.app .container form {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 25px;
+}
+
+.app .container form input {
+  width: 250px;
+  color: #fff;
+  border: 1px solid grey;
+  outline: none;
+  background-color: transparent;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.app .container form ::-webkit-input-placeholder {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.app .container form button {
+  width: 80px;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid grey;
+  outline: none;
+  background-color: #222831;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.cards img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.cards img:hover {
+  transform: scale(1.5);
+  border-radius: 6px;
+}
